@@ -20,6 +20,9 @@ module tb_lab2();
     A = 4'b0110; //   6
     B = 4'b0111; // - 7 
     #10 $display("%b",out);  // should output 00001111 = -1
+
+// add at least 4 more tests to check your implementation	  
+	  
     $finish;
   end
   
